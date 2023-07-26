@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Shopit/static/css/main.073c9b0a.css",
+    "main.js": "/Shopit/static/js/main.703f6b85.js",
+    "static/media/simple.png": "/Shopit/static/media/simple.3366eeef613ba494368b.png",
+    "static/media/puma.png": "/Shopit/static/media/puma.4f794de1db079d96d372.png",
+    "static/media/Welcome.png": "/Shopit/static/media/Welcome.3c0646a14268b3c7fdd4.png",
+    "static/media/sale.png": "/Shopit/static/media/sale.c6b3c16d0f048c494aa1.png",
+    "static/media/shopit.png": "/Shopit/static/media/shopit.b1e0396d2ac65ebdc7e1.png",
+    "index.html": "/Shopit/index.html",
+    "main.073c9b0a.css.map": "/Shopit/static/css/main.073c9b0a.css.map",
+    "main.703f6b85.js.map": "/Shopit/static/js/main.703f6b85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.703f6b85.js"
+  ]
+}

@@ -1,0 +1,257 @@
+.flex-container {
+    display: flex;
+    /* background-color: rgb(196, 196, 196); */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 50px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  .price{
+    background-color: yellow;
+    display: inline;
+    font-size: 10px;
+  }
+  #brandname{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+  #brandname > img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: 0.6fr 2.4fr;
+  }
+  .side{
+    background-color: beige;
+  }
+  .side > button{
+    display: inline-block;
+    margin: 10px;
+  }
+  .cont{
+    display: inline;
+  }
+  .searchbar{
+    padding: 10px 50px;
+    /* width: max-content; */
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+    
+  }
+  .search{
+    display: grid;
+    grid-template-columns: 25% 25px 30%;
+  }
+  .search > div{
+    display: inline;
+  }
+  .searchlogo{
+    padding: 10px 3px 0 3px;
+    border-width: 1px 0 1px 1px ;
+    border-color: black;
+    border-style: solid;
+  }
+  .landingPage{
+    display: grid;
+    grid-template-columns: max-content;
+  }
+  .sale{
+    /* background-color: rgb(90, 79, 79); */
+    padding: 10px;
+    text-align: center;
+    color: wheat;
+    position: relative;
+  }
+  .sale > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .shop{
+    position: absolute;
+    top: 68.5%;
+    left: 60%;
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid black ;
+    border-radius: 10%;
+   padding: 15px 20px;
+  }
+  .check{
+    position: absolute;
+    top: 76%;
+    left: 60%;
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid black ;
+    border-radius: 10%;
+   padding: 15px 20px;
+  }
+  .bigg
+  {
+    font-family: sans-serif;
+    font-size: 75px;
+  }
+  #brandname > h1{
+    display: inline;
+  }
+  .carty{
+    display: inline;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .carty > p{
+    display: inline;
+  }
+  .logo{
+    font-size: 25px;
+  }
+  .num{
+    background-color: red;
+    color: white;
+    font-size: small;
+  }
+  .remove{
+    background-color: gray;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  footer{
+    background-color: gray;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .tot{
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    margin: 5px;
+  }
+  .ttamt{
+    display: grid;
+    grid-template-columns: 80% 20%;
+  }
+  .prodimg{
+    transition: transform 0s;
+  }
+  .prodimg:hover{
+    transform: scale(1.2);
+  }
+
+  .cartHead{
+    text-align: center;
+    font-size: 30px;
+  }
+.marq{
+  background-color: black;
+  color: white;
+}
+
+.mag{
+  font-size: 27px;
+  padding: 8px 20px;
+}
+.sideTitle{
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.clear{
+  background-color: gray;
+  padding: 10px 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* margin-left: 70%; */
+  width: 100%;
+}
+.proceed{
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+.goback{
+  display: grid;
+  grid-template-columns: 2% 7%;
+  text-align: center;
+}
+.arw{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.loginpage{
+  display: flex;
+  justify-content: center;
+}
+.cntnt{
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4%;
+  text-align: center;
+}
+.cntnt > input{
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+}
+.cntnt > button{
+  display: flex;
+  justify-content: center;
+  margin: 20px 25%;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+.details{
+  text-align: center;
+}
+.details >input{
+  padding: 10px;
+  display: block;
+  margin: 20px 25%;
+  border-width:0 0 1px 0;
+  border-color: black;
+  border-style: solid ;
+  width: 50%;
+}
+.details >h3{
+  margin: 20px;
+}
+.details > input:focus{
+  outline: 0;
+  border-width:0 0 2px 0;
+  border-color: red;
+  border-style: solid ;
+}
+.details > button{
+  padding: 1rem 3rem;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+.filCol > input{
+  display: inline;
+}
+.filCol > p{
+  display: inline;
+}
+.filCol{
+  margin: 10px;
+}
